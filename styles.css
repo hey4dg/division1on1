@@ -1,0 +1,394 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding-top: 6%;
+	display: inline-block;
+
+}
+
+li {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 24px;
+	display: inline-block;
+	padding: 0 20px;
+	color: white;
+	cursor: pointer;
+}
+a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+}
+.logo {
+	width: 75px;
+	position: absolute;
+	top: 0%;
+	left: 1%;
+	display: inline-block;
+	z-index: 100000;
+	position: fixed;
+
+}
+
+.t {
+	color: white;
+	text-decoration: none;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+
+}
+
+.nav-bar {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	height: 10%;
+	z-index: 10000;	
+}
+
+
+
+.nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 0 auto;
+	margin-left: 5%;
+	height: 10%;
+}
+
+.log {
+	display: inline-block;
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+	margin-left: 85%;
+	height: 10%;
+	padding-top: 1%;
+	cursor: pointer;
+}
+
+.home {
+	height: 100vh;
+	background: url("div1on1.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*position: relative;*/
+}
+
+.grey-box {
+	width: 80%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 25%;
+	height: 400px;
+	background-color: rgba(32,32,32,0.7);
+}
+
+
+.title {
+	color: white;
+	font-size: 80px;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.subtitle {
+	color: white;
+	font-size: 30px;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+}
+
+.button-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.button1, .button2 {
+	width: 20%;
+	margin: 0 auto;
+	display: inline-block;
+	border: 4px solid;
+	padding: 20px;
+	margin-right: 5%;
+	margin-left: 15%;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.button1 {
+	border-color: #ff3800;
+}
+
+.button2 {
+	border-color: #00a1ca;
+}
+
+.about, .our-team, .contact {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.about-title {
+/*	display: inline-block;*/
+	position: absolute;
+	width: 50%;
+	top: 0;
+	left: 0;
+}
+
+.about-title2 {
+/*	display: inline-block;*/
+	position: absolute;
+	width: 50%;
+	top: 0;
+	right: 0;
+}
+
+
+.left {
+	background: url("soccer.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.title2 {
+	padding-top: 45%;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 0;
+}
+
+.about-info {
+	position: relative;
+	width: 50%;
+	left: 50%;
+}
+
+.about-info2 {
+	position: relative;
+	width: 50%;
+	left: 0;
+}
+
+.blue {
+	color: #00a1ca;
+}
+
+.orange {
+	color: #ff3800;
+}
+
+.text-wrapper {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 15%;
+}
+.text-wrapper p {
+	font-family: 'Roboto slab', serif;
+	text-align: left;
+}
+
+.left2 {
+	background: url("tennis.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.left3 {
+	background: url("basketball.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.team {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.team h1, .how h1, .why h1, .mission h1 {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 0;
+}
+
+.mission h1, .how h1 {
+	color: #ff3800;
+}
+
+.why h1 {
+	color: #00a1ca;
+}
+
+.why p {
+	text-align: center;
+}
+
+.why-left {
+	width: 50%;
+	display: inline-block;
+}
+
+.jared, .grant {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.bio-text {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.jared p, .grant p {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-family: 'Roboto slab', serif;
+}
+
+.jared h1 {
+	padding-top: 5%;
+	margin-top: 0;
+	color: #00a1ca;
+}
+
+.grant h1 {
+	color: #00a1ca;
+}
+
+.profile {
+	width: 30%;
+	display: inline-block;
+}
+.contact_wrapper {
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+	vertical-align: top;
+	padding-top: 5%;
+/*	overflow-x:hidden;*/
+}
+
+.contact-form {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+}
+
+form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+input[type="text"] {
+	height: 24px;
+	padding: 6px 10px;
+	border: 2px solid black;
+}
+input[type="submit"] {
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	border: 2px solid black;
+	padding: 15px 0px;
+	margin-top: 10px;
+	font-size: 18px;
+	-webkit-appearance: button;
+    cursor: pointer;
+    background-color: white;
+}
+
+input, textarea {
+	font: inherit;
+}
+
+input[type="submit"]:hover {
+	border-color: blue;
+}
+
+/*.contact-section {
+	display: inline-block;
+	width: 100%;
+
+}*/
+
+.contact-section .first-input {
+    width: calc(100% - 40px);
+}
+
+input, textarea {
+    margin-bottom: 1.5rem;
+    width: calc(100% - 20px);
+    padding: 6px 10px;
+}
+
+.contact-form h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #ff3800;
+}
+
+.name, .email, .phone, .message {
+	font-size: 16px;
+	font-family: 'Fjalla One', sans-serif;
+	width: 100%;
+}
+
+textarea {
+	min-height: 80px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px solid black;
+}
+
+.form_errors {
+	color: red;
+	text-align: center;
+}

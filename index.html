@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Division 1-On-1 Trainers</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link rel="icon" type="image/png" href="divisionlogo.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+</style>
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+</style>
+<body>
+	<div class="container">
+		<img class="logo" src="divisionlogo.png" onclick="scrollToTop()"/>
+	</div>
+	<div class="nav-bar">
+			<div class="nav">
+				<ul>
+					<li><a href="trainers.html">OUR TRAINERS
+					</a></li><li><a href="faq.html">FAQ
+					</a></li><li><a href="index.html#contact">CONTACT
+					</a></li>
+				</ul>
+			</div><div class="log">
+				LOG IN | SIGN UP
+			</div>
+	</div>
+	<div class="home">
+		<div class="grey-box">
+			<h1 class="title">DIVISION <span class="blue">1</span>-ON-<span class="orange">1</span> TRAINERS</h1>
+			<h2 class="subtitle">Train with elite college athletes</h2>
+			<div class="button-wrapper">
+				<div class="button1"><a class="t" href="trainers.html">FIND A TRAINER</a></div><div class="button2" onclick="scrollDown()">BECOME A TRAINER
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<section class="about">
+		<div class="about-title">
+			<div class="left">
+				<h1 class="title2">ABOUT</h1>
+			</div>
+		</div><div class="about-info">
+			<div class="text-wrapper">
+				<div class="mission">
+					<h1>Our Mission</h1>
+					<p>Division 1-On-1 Trainers' mission is to provide young athletes with a brand new opportunity to receive personal sports training from the country's top Division 1 college athletes. We connect young athletes to experienced Division 1 players who through 1-on-1 sessions, will help improve a variety of skills in their respective sport. This unique training experience is only offered by Division 1-On-1.</p>
+				</div>
+				<div class="why">
+					<h1>Why Division 1-On-1?</h1>
+					<div class="why-left">
+						<p>*All trainers are NCAA Division 1 athletes<br>*Personal 1 on 1 training</p>
+					</div><div class="why-left">
+						<p>*Only $40 for a 1 hour training session<br>*Easy online booking</p></div>
+				</div>
+				<div class="how">
+					<h1>How it works</h1>
+					<p>Browse trainers under the "OUR TRAINERS" page, select and request the trainer you'd like to reserve. Message them through our site's messaging system to schedule the time and location of the training session.<br>Before your first session, please sign the Division 1-On-1 trainer waiver on our 'Frequently Asked Questions' page. After the session, pay through the online system and electronically sign the NCAA compliance form. Schedule as many sessions as you want!</p>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="our-team">
+		<div class="about-info2">
+			<div class="team">
+					<div class="jared"><h1>Jared Vishno</h1>
+						<img class="profile" src="jared.png"/><div class="bio-text">
+							<p>Jared is in his first-year at the University of Virginia studying entrepreneurship. At Staples High School in Westport, CT, he was a four year varsity basketball player and served as team captain his senior year. He spent his offseason learning about the personal training buisiness as he worked at youth camps and provided 1-on-1 lessons with dozens of young basketball players in Westport.</p>
+						</div>
+					</div>
+					<div class="grant"><h1>Grant Sirlin</h1>
+						<div class="bio-text">
+							<p>Grant is also in his first-year at the University of Virginia and is interested in business. He was a varsity soccer player and state champion skier at Staples High School in Westport, CT. Grant is passionate about personal sports training and has extensive experience training youth travel soccer players.</p>
+						</div><img class="profile" src="grant.png"/>
+					</div>
+				</div>
+		</div><div class="about-title2">
+			<div class="left3">
+				<h1 class="title2">OUR TEAM</h1>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="about-title">
+			<div class="left2">
+				<h1 class="title2">CONTACT</h1>
+			</div>
+		</div><div class="about-info">
+			<div class="text-wrapper">
+				<div class="contact-form">
+					<div class="form_wrapper">
+						<form class="contact-form" name="contact-form" method="post" action="send_form_email.php">
+							<h1>CONTACT US</h1>
+							<p>Interested in becoming a trainer?<br>Enter your name and email address, then type your sport in the message box. We will get back to you soon!<br>Or, feel free to email us at division1on1@gmail.com with any questions.</p>
+							<div class="form_errors"></div>
+							<div class="name">Name</div>
+								<input type="text" name="name"><br>
+							<div class="email">Email</div>
+								<input class="first-input" type="text" name="email"><br>
+							<div class="message">Message</div>
+								<textarea name="message" placeholder="What can we help you with?"></textarea><br>
+							<input type="submit" value="submit">
+							<!-- <h1>Instagram: @eyun.art</h1> -->
+						</form>
+					</div>
+					<!-- <div class="message_sent">
+						<img class="msent" src="msent.png"/>
+						<h1 class="sent">Thanks! I'll be in touch.</h1>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
