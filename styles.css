@@ -250,12 +250,8 @@ a {
 	margin-bottom: 0;
 }
 
-.mission h1, .how h1 {
+.mission h1, .how h1, .why h1 {
 	color: #ff3800;
-}
-
-.why h1 {
-	color: #00a1ca;
 }
 
 .why p {
