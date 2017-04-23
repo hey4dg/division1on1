@@ -6,7 +6,7 @@ body {
 ul {
 	list-style: none;
 	margin: 0;
-	padding-top: 6%;
+	padding-top: 4%;
 	display: inline-block;
 
 }
@@ -55,7 +55,7 @@ a {
 	background-color: white;
 	width: 100%;
 	margin: 0 auto;
-	height: 10%;
+	height: 80px;
 	z-index: 10000;	
 }
 
@@ -64,7 +64,7 @@ a {
 .nav {
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
+	width: 40%;
 	margin: 0 auto;
 	margin-left: 5%;
 	height: 10%;
@@ -75,7 +75,8 @@ a {
 	color: black;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 20px;
-	margin-left: 85%;
+	width: 30%;
+	padding-left: 85%;
 	height: 10%;
 	padding-top: 1%;
 	cursor: pointer;
@@ -83,7 +84,7 @@ a {
 
 .home {
 	height: 100vh;
-	background: url("div1on1.png") no-repeat center center;
+	background: url("track.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -99,7 +100,7 @@ a {
 	margin: 0 auto;
 	top: 25%;
 	height: 400px;
-	background-color: rgba(32,32,32,0.7);
+	background-color: rgba(32,32,32,0.8);
 }
 
 
@@ -125,7 +126,7 @@ a {
 }
 
 .button1, .button2 {
-	width: 20%;
+	width: 200px;
 	margin: 0 auto;
 	display: inline-block;
 	border: 4px solid;
@@ -140,14 +141,14 @@ a {
 }
 
 .button1 {
-	border-color: #ff3800;
+	border-color: #FFA100;
 }
 
 .button2 {
 	border-color: #00a1ca;
 }
 
-.about, .our-team, .contact {
+.about, .our-team, .contact, .why {
 	height: 100vh;
 	width: 100%;
 	position: relative;
@@ -169,6 +170,31 @@ a {
 	right: 0;
 }
 
+.icon {
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+}
+
+.wrapper p {
+	text-align: center;
+	font-family: 'Roboto slab', serif;
+	width: 75%;
+	font-size: 14px;
+	margin: 0 auto;
+	padding-top: 4px;
+}
+
+.row {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 8%;
+}
+
+.wrapper {
+	width: 50%;
+	display: inline-block;
+}
 
 .left {
 	background: url("soccer.png") no-repeat center center;
@@ -182,6 +208,17 @@ a {
 
 .title2 {
 	padding-top: 45%;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 0;
+}
+
+.title3 {
+	padding-top: 45%;
+	padding-left: 100px;
 	margin: 0;
 	text-align: center;
 	color: white;
@@ -207,20 +244,29 @@ a {
 }
 
 .orange {
-	color: #ff3800;
+	color: #FFA100;
 }
 
-.text-wrapper {
-	width: 85%;
+.text-wrapper1 {
+	width: 60%;
 	margin: 0 auto;
 	padding-top: 15%;
 }
-.text-wrapper p {
+.text-wrapper p, .text-wrapper1 p {
 	font-family: 'Roboto slab', serif;
 	text-align: left;
 }
 
 .left2 {
+	background: url("swim.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.left4 {
 	background: url("tennis.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -243,24 +289,19 @@ a {
 	margin: 0 auto;
 }
 
-.team h1, .how h1, .why h1, .mission h1 {
+.team h1, .how h1, .mission h1 {
 	text-align: center;
 	font-size: 25px;
 	font-family: 'Fjalla One', sans-serif;
 	margin-bottom: 0;
 }
 
-.mission h1, .how h1, .why h1 {
-	color: #ff3800;
+.mission h1, .how h1 {
+	color: #FFA100;
 }
 
-.why p {
-	text-align: center;
-}
-
-.why-left {
-	width: 50%;
-	display: inline-block;
+.how {
+	margin-top: 10%;
 }
 
 .jared, .grant {
@@ -291,12 +332,14 @@ a {
 }
 
 .grant h1 {
+	margin-top: 0;
 	color: #00a1ca;
 }
 
 .profile {
-	width: 30%;
+	width: 25%;
 	display: inline-block;
+	vertical-align: top;
 }
 .contact_wrapper {
 	width: 100%;
@@ -368,13 +411,18 @@ input, textarea {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 30px;
 	text-align: center;
-	color: #ff3800;
+	color: #FFA100;
 }
 
 .name, .email, .phone, .message {
 	font-size: 16px;
 	font-family: 'Fjalla One', sans-serif;
 	width: 100%;
+}
+.text-wrapper {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 15%;
 }
 
 textarea {
