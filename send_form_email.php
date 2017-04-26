@@ -32,12 +32,12 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "[insert email to be sent from]";
+$mail->Username = "smallcraig98@gmail.com";
 //Password to use for SMTP authentication
-$mail->Password = "[password]";
+$mail->Password = "Craiglovesus";
 
 //Set who the message is to be sent from
-$mail->setFrom('Username', 'Website contact form');
+$mail->setFrom('smallcraig98', 'Website contact form');
 
 //Set who the message is to be sent to
 $mail->addAddress('division1on1@gmail.com', 'Jared Vishno');
