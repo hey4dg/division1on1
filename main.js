@@ -40,34 +40,35 @@ function validateForm(data) {
 		if (data[i]['value'] != "") numValues++;
 	}
 
-	if (numValues < 3) {
+	if (numValues < 2) {
 		return ["Name, Email, and Message are required fields"];
 	}
 
 	var validName = validateName(escapeHTML(data[0]['value']));
 	var validEmail = validateEmail(escapeHTML(data[1]['value']));
 
-	var validPhone;
+	//var validPhone;
 	var message;
 	
-	if (numValues == 3){
+	if (numValues == 2){
 		if (data[2]['value'] != "") {
 			return ["Message field is required"];
 		} else {
 			message = escapeHTML(data[2]['value']);
 			validPhone = "";
 		}
-	} else {
-		validPhone = validatePhone(escapeHTML(data[2]['value']));
-		message = escapeHTML(data[3]['value']);
-	}
+	} 
+	// else {
+	// 	validPhone = validatePhone(escapeHTML(data[2]['value']));
+	// 	message = escapeHTML(data[3]['value']);
+	// }
 
 	var errors = [];
 	var errorMessage = "";
 
 	if (!validName) errorMessage += 'Valid name required\n<br>';
 	if (!validEmail) errorMessage += 'Valid email required\n<br>';
-	if (!validPhone && validPhone != "") errorMessage += 'Valid phone required';
+	//if (!validPhone && validPhone != "") errorMessage += 'Valid phone required';
 
 	console.log("errorMessage", errorMessage);
 
@@ -85,9 +86,9 @@ function validateEmail(email) {
 	return /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/.test(email);
 }
 
-function validatePhone(phone) {
-	return /[^a-zA-Z.]/.test(phone);
-}
+// function validatePhone(phone) {
+// 	return /[^a-zA-Z.]/.test(phone);
+// }
 
 function escapeHTML(text) {
 

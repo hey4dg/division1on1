@@ -409,6 +409,23 @@ textarea {
 	text-align: center;
 }
 
+.message_sent {
+	display: none;
+	vertical-align: top;
+	padding-top: 30%;
+}
+.sent {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	color: #00a1ca;
+}
+
+.form_errors {
+	color: red;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+}
+
 /*******************************
         MEDIA QUERIES          
 *******************************/
