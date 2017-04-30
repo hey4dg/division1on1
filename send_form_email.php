@@ -48,7 +48,7 @@ if(isset($_POST['email'])) {
 
 	$name = check_input($_POST['name']);
 	$email = check_input($_POST['email']);
-	$phone = $_POST['phone'] == "" ? "" : check_input($_POST['phone']);
+	//$phone = $_POST['phone'] == "" ? "" : check_input($_POST['phone']);
 	$message = check_input($_POST['message']);
 
 	$error_message = "";
@@ -64,11 +64,11 @@ if(isset($_POST['email'])) {
 		$error_message .= 'The Name you entered does not appear to be valid.<br />';
 	}
 
-	if ($phone != ""){
-		if (preg_match("/\D/",$phone)){
-			$error_message .= 'The Phone Number you entered does not appear to be valid.<br />';
-		}
-	}
+	// if ($phone != ""){
+	// 	if (preg_match("/\D/",$phone)){
+	// 		$error_message .= 'The Phone Number you entered does not appear to be valid.<br />';
+	// 	}
+	// }
 
 	if(strlen($error_message) > 0) {
 		die($error_message);
@@ -77,7 +77,7 @@ if(isset($_POST['email'])) {
 	$email_message = "Form details below.\n\n";
 	$email_message .= "Name: ". $name ."\n";
 	$email_message .= "Email: " . $email ."\n";
-	$email_message .= "Phone: ". $phone ."\n";
+	//$email_message .= "Phone: ". $phone ."\n";
 	$email_message .= "Message: ". $message ."\n";
 
 	$mail->Body = $email_message;

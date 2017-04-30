@@ -40,7 +40,7 @@ function validateForm(data) {
 		if (data[i]['value'] != "") numValues++;
 	}
 
-	if (numValues < 2) {
+	if (numValues < 3) {
 		return ["Name, Email, and Message are required fields"];
 	}
 
@@ -50,7 +50,7 @@ function validateForm(data) {
 	//var validPhone;
 	var message;
 	
-	if (numValues == 2){
+	if (numValues == 3){
 		if (data[2]['value'] != "") {
 			return ["Message field is required"];
 		} else {
