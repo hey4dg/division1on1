@@ -50,7 +50,7 @@ function validateForm(data) {
 	//var validPhone;
 	var message;
 	
-	if (numValues == 3){
+	if (numValues == 2){
 		if (data[2]['value'] != "") {
 			return ["Message field is required"];
 		} else {
