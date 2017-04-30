@@ -40,7 +40,7 @@ function validateForm(data) {
 		if (data[i]['value'] != "") numValues++;
 	}
 
-	if (numValues < 3) {
+	if (numValues < 2) {
 		return ["Name, Email, and Message are required fields"];
 	}
 
